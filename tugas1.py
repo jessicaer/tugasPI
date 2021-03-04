@@ -1,5 +1,5 @@
-a = 12
-b = 3
+a = input("Masukkan bilangan pertama: ")
+b = input("Masukkan bilangan kedua: ")
 
-c = a / b
-print("Hasil %d / %d = %d" % (a,b,c))
+c = float(a) + float(b)
+print('Hasil {0} + {1} = {2}'.format(a,b,c))
